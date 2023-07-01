@@ -1,0 +1,41 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: black;
+    background-color: rgb(255, 255, 255);
+}
+svg {
+    background-color: white;
+}
+
+.county {
+    color: aquamarine;
+    stroke: white;
+}
+
+#tooltip {
+    background-color: #0e0b0b;
+    color: white;
+    position: absolute;
+    border: 1px solid #ccc;
+    padding: 10px;
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    pointer-events: none; /* Ensures tooltip does not interfere with mouse events on the chart */
+    display: none; /* Initially hide the tooltip */
+  }
+
+  .legend rect {
+    stroke: #000;
+  }
+  
+  .legend text {
+    fill: #000;
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+  }
+
+  
+  

@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "geo-albers-usa-territories": "^0.1.0"
+  }
+}
